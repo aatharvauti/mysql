@@ -26,7 +26,7 @@ RIGHT JOIN Courses
 ON Courses.RollNo = Students.RollNo;
 
 -- Full Join
-SELECT Students.Name, Courses.CourseID 
-FROM Students
-FULL JOIN Courses 
-ON Courses.RollNo = Students.RollNo;
+-- SELECT Students.Name, Courses.CourseID 
+-- FROM Students
+-- FULL JOIN Courses 
+-- ON Courses.RollNo = Students.RollNo;
