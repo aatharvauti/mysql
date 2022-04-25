@@ -3,7 +3,7 @@
 CREATE DATABASE triggerdb;
 USE triggerdb;
 
-CREATE TABLE Students(StudentName varchar(45), RollNo int, PRIMARY KEY (user_id));
+CREATE TABLE Students(StudentName varchar(45), RollNo int, PRIMARY KEY (RollNo));
 
 CREATE TABLE trigger_timestamp (exec_time datetime NOT NULL);
 
