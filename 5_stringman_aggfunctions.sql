@@ -64,5 +64,3 @@ SELECT MAX(Price) FROM Products;
 
 -- Return the minimum value of 'Price' field:
 SELECT MIN(Price) FROM Products;
-
-
